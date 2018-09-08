@@ -12,6 +12,8 @@ public class SomeClass {
 
         System.out.println("new branch Test");
 
+        System.out.println("new commit in Test branch");
+
         System.out.println(x);
         System.out.println("Hello!");
     }
