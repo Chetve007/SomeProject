@@ -2,13 +2,15 @@ public class SomeClass {
 
     public static void main(String[] args) {
         String label = "Alexa";
-        int x = 56;
+        int x = 90;
 
         int y = 36784783;
 
         if (true) {
 		    throw new IllegalArgumentException("Hi Leha");
 	    }
+
+        System.out.println("new branch Test");
 
         System.out.println(x);
         System.out.println("Hello!");
