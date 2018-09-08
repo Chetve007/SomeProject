@@ -4,11 +4,15 @@ public class SomeClass {
         String label = "Alexa";
         int x = 90;
 
-        int y = 36784783;
+        int y = 367843;
 
         if (true) {
 		    throw new IllegalArgumentException("Hi Leha");
 	    }
+
+	    if(x > y) {
+            System.out.println("hey");
+        }
 
         System.out.println("new branch Test");
 
